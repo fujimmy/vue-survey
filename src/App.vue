@@ -55,7 +55,10 @@
 import { reactive, ref } from 'vue'
 
 let questionId = 4
-
+// 初始題目
+// 這裡的題目可以根據需求進行修改
+// 也可以從後端獲取
+// 這裡的題目是靜態的，實際應用中可以從後端獲取
 const questions = reactive([
   {
     id: 1,
